@@ -1,3 +1,4 @@
+// regex validation for elements and error message display if validation fails
 var regValidation = (function(){
     var obj = {eventListeners: {}};
     

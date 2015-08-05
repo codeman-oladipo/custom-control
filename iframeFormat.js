@@ -1,3 +1,4 @@
+// Accessing all hyperlinks within an iframe & opening them within the frame, also prevent live links on mobile browser
 (function(){
         var liveLink = document.querySelectorAll(".emailAddress");
         var formattedLink = [];

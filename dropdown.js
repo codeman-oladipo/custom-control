@@ -1,8 +1,8 @@
 // ADD no-theme TO ELEMENT TO KEEP DEFAULT STYLING
-
+// Transform all select controls on a page into custom select control 
 (function(){
     
-    $('#body[theme=ssep]').find('select:not([no-theme])').each(function(){
+    $('body').find('select:not([no-theme])').each(function(){
         var defaultElement = $(this);
         var id = defaultElement.attr('id');
         var firstItem = defaultElement.find('option:eq(0)');
